@@ -1,0 +1,56 @@
+Select price
+From superstore;
+
+select sum (price)
+From superstore;
+
+select *
+From superstore
+Group by Stock_quantity 
+
+select Avg (price)
+From superstore;
+
+Select count (price)
+From superstore;
+
+Select Max (price)
+From superstore;
+
+Select Min (price)
+From superstore;
+
+Select Item_id
+From superstore;
+
+Select Item_name
+From Superstore;
+
+Select stock_quantity
+From superstore;
+
+Select average_rating
+From superstore;
+
+Select category
+From superstore;
+
+Select (price), category 
+from superstore 
+Where category = "Kitchen Supplies"
+
+Select (item_name), category
+from superstore
+where category = "Kitchen Supplies"
+
+select (item_name), stock_quantity
+from superstore
+where item_name = "Air Purifier"
+
+
+Select sum (price), category
+from superstore
+where category = "Kitchen Supplies"
+
+Select item_name
+from superstore;
